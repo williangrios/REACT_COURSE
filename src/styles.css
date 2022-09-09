@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 1px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.capa{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.titulo{
+    font-size: 25px;
+    margin: 18px 0 25px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulo{
+    margin: 5px;
+}
+
+.botao{
+    height: 40px;
+    background: none;
+    border-radius:  5px;
+    color:blue;
+    border:  2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.botao:hover{
+    color: white;
+    background-color: blue;
+}

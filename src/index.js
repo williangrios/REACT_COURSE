@@ -9,9 +9,11 @@ import AppLists from './AppLists';
 import AppForms from './AppForms';
 import AppFormsMore from './AppFormsMore';
 import AppFormsManyFields from './AppFormsManyFields';
+import AppUseState from './AppUseState';
+import AppHttpRequests from './AppHttpRequests';
 
 
-
+ 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -32,7 +34,10 @@ root.render(
     <AppFormsMore/>
     <hr/>
     <AppFormsManyFields/>
-
+    <hr/>
+    <AppUseState/>
+    <hr/>
+    <AppHttpRequests/>
 
   </React.StrictMode> 
 );
